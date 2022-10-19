@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import UsersListItem from 'components/molecules/UsersListItem/UsersListItem';
-import { Wrapper, StyledList, StyledTitle } from './UsersList.style';
+import { StyledList, StyledTitle, Wrapper } from './UsersList.styles';
 
 const UsersList = ({ users, deleteUser }) => {
   return (
