@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
   overflow-y: scroll;
 `;
 
-export const NewsSectionHeader = styled.h3`
+export const NewsSectionHeader = styled.h2`
   margin-right: auto;
   color: ${({ theme }) => theme.colors.darkGrey};
 `;
@@ -38,7 +38,7 @@ export const TitleWrapper = styled.div`
 
   p {
     margin: 0;
-    font-size: ${({ theme }) => theme.fontSize.m};
+    font-size: ${({ theme }) => theme.fontSize.l};
   }
 `;
 
