@@ -1,7 +1,7 @@
 import FormField from './FormField';
 
 export default {
-  title: 'Components/Moleculs/FormField',
+  title: 'Components/Molecules/FormField',
   component: FormField,
 };
 
