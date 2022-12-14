@@ -31,6 +31,6 @@ describe('Root component', () => {
 
     fireEvent.click(screen.getByText('Sign in'));
 
-    await waitFor(() => screen.getByText(/Ruecker/));
+    await waitFor(() => screen.getByText(/Lonnie/));
   });
 });
